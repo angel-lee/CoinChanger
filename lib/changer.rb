@@ -1,4 +1,4 @@
-class Changer 
+class Changer
 	def change(amount)
 		return_amount = []
 		[25, 10, 5, 1].each do |coin|
@@ -7,4 +7,4 @@ class Changer
 		end
 		return_amount.flatten
 	end
-end 
+end
