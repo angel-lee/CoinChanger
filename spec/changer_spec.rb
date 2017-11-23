@@ -2,6 +2,7 @@ require 'changer'
 
 describe Changer do
 	let(:changer) {Changer.new}
+
 	it 'has a change method' do
 		expect(changer.respond_to?(:change)).to eq(true)
 	end
