@@ -21,7 +21,7 @@ class Roman
             while number >= natural_number
                 roman += roman_numeral
                 number -= natural_number
-            end
+              end
         end
         roman
     end

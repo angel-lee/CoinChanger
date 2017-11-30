@@ -15,9 +15,8 @@ describe Roman do
         [ 50, "L" ],
         [ 2013, "MMXIII"],
         [ 3999, "MMMCMXCIX"]
-    ].each do | natural_number, roman_numeral|
-
-        it 'converts #{natural_number} to #{roman_numeral}' do
+    ].each do |natural_number, roman_numeral|
+        it 'converts #{natural_number} to #{roman_numeral' do
             expect(roman.convert(natural_number)).to eq(roman_numeral)
         end
     end
